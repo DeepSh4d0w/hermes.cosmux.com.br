@@ -21,6 +21,14 @@ async function getNewClient() {
         POSTGRES_PASSWORD: password,
     } = process.env;
 
+    console.log({
+        host,
+        port,
+        database,
+        user,
+        password,
+    });
+
     const client = new Client({
         host,
         port,
