@@ -4,7 +4,8 @@
   "description": "Uma aplicação API First para criar e gerenciar fichas de RPG.",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "commit": "cz"
   },
   "keywords": [],
   "author": "Deepsh",
@@ -13,5 +14,13 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "husky": "^9.1.6"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
