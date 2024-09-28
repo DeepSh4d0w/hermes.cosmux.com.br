@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "Uma aplicação API First para criar e gerenciar fichas de RPG.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky"
+  },
   "keywords": [],
   "author": "Deepsh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "husky": "^9.1.6"
+  }
 }
