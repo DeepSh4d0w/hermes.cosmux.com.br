@@ -1,0 +1,10 @@
+{
+  "name": "hermes",
+  "version": "1.0.0",
+  "description": "Uma aplicação API First para criar e gerenciar fichas de RPG.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Deepsh",
+  "license": "MIT"
+}
