@@ -4,6 +4,7 @@
   "description": "Uma aplicação API First para criar e gerenciar fichas de RPG.",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
     "lint:prettier:check": "prettier --check .",
     "lint:prettier:fix": "prettier --write .",
     "prepare": "husky",
@@ -15,7 +16,8 @@
   "dependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "husky": "^9.1.6"
+    "husky": "^9.1.6",
+    "next": "^14.2.13"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
